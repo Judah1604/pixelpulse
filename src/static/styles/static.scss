@@ -1,0 +1,22 @@
+$circle-color: #5471FF;
+
+.navbar {
+
+    .container-fluid {
+        width: 80%;
+    }
+
+    .nav {
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    a {
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.4em;
+    }
+}

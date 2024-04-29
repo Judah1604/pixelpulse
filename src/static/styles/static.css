@@ -1,0 +1,14 @@
+.navbar .container-fluid {
+  width: 80%;
+}
+.navbar .nav {
+  justify-content: space-between;
+}
+.navbar .logo {
+  height: 40px;
+}
+.navbar a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}/*# sourceMappingURL=static.css.map */

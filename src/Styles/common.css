@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Schibsted+Grotesk:wght@700&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #080D27;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+}
+
+h1, h2, h3, h4, .nav-link {
+  font-family: "Schibsted Grotesk", sans-serif;
+}/*# sourceMappingURL=common.css.map */
