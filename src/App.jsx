@@ -1,10 +1,16 @@
-import './Styles/common.css';
-import Navbar from './static/Navbar';
+import "./Styles/common.css";
+import Feautures from "./components/Features/Feautures";
+import HeroSection from "./components/HeroSection/HeroSection";
+import Navbar from "./static/Navbar";
 
 function App() {
-  return (
-    <Navbar />
-  )
+	return (
+		<>
+			<Navbar />
+			<HeroSection />
+            <Feautures />
+		</>
+	);
 }
 
-export default App
+export default App;

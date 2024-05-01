@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Schibsted+Grotesk:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Schibsted+Grotesk:wght@800&display=swap");
 * {
   margin: 0;
 }
@@ -9,6 +9,61 @@ body {
   color: white;
 }
 
-h1, h2, h3, h4, .nav-link {
+h1,
+h2,
+h3,
+h4,
+.nav-link,
+.btn {
   font-family: "Schibsted Grotesk", sans-serif;
+}
+
+p {
+  opacity: 0.7;
+  font-size: 1.6em;
+  margin-top: 20px;
+}
+
+.container-fluid {
+  width: 80%;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.btn-blue {
+  color: #77d4cc;
+  background-color: #121d55;
+  padding: 15px 20px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+.btn-blue::after {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 50px;
+  background-color: #00a4ff;
+  top: -90%;
+  left: 15%;
+  filter: blur(40px) brightness(0.8);
+  transition: 0.3s ease;
+}
+.btn-blue i {
+  color: white;
+  margin-right: 20px;
+}
+.btn-blue:hover {
+  background-color: #121d55;
+  color: #77d4cc;
+}
+.btn-blue:hover::after {
+  filter: blur(40px) brightness(1.1);
+}
+
+.lil-bold {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #B4D477;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=common.css.map */
