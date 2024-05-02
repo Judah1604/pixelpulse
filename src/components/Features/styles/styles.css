@@ -56,6 +56,7 @@
   }
   .features .feature:nth-child(1) {
     border-radius: 30px 30px 0 0;
+    border-bottom: 2px solid #3b4683;
   }
   .features .feature:nth-child(2) {
     border-radius: 0px 0 30px 30px;
