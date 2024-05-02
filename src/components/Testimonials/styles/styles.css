@@ -1,0 +1,54 @@
+.testimonials {
+  margin-top: 70px;
+}
+.testimonials h1 {
+  font-weight: 700;
+}
+.testimonials .person {
+  display: flex;
+}
+.testimonials .person h3 {
+  margin: 0;
+  color: #77d4cc;
+}
+.testimonials .person p {
+  font-size: 1em;
+  margin: 0;
+  text-align: left;
+  color: #77d4cc;
+  opacity: 0.7;
+}
+.testimonials .person img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid #77d4cc;
+}
+.testimonials .row {
+  gap: 20px;
+}
+.testimonials .row p {
+  opacity: 1;
+}
+.testimonials .row > * {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.01));
+}
+.testimonials .span {
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonials .row {
+    flex-direction: column;
+  }
+  .testimonials .row > * {
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */

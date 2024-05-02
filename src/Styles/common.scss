@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Schibsted+Grotesk:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Schibsted+Grotesk:wght@700;800&display=swap');
 
 * {
     margin: 0;
@@ -8,6 +8,11 @@ body {
     background-color: #080D27;
     font-family: 'DM Sans', sans-serif;
     color: white;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-weight: 800;
 }
 
 h1,

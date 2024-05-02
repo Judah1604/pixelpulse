@@ -29,6 +29,10 @@ function Navbar() {
 						Download
 					</a>
 				</div>
+				<div className="menu-icon">
+					<span></span>
+					<span></span>
+				</div>
 			</div>
 		</div>
 	);

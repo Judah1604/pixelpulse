@@ -1,14 +1,14 @@
-import React from "react";
+import './styles/styles.css'
 
 function Feautures() {
 	return (
-		<div className="feautures container-fluid">
+		<div className="features container-fluid">
 			<div className="feature">
 				<div className="icon">
-					<i class="fa-solid fa-gears"></i>
+					<i class="fa-solid fa-circle-nodes"></i>
 				</div>
 				<h4 className="lil-bold">EASY INTEGRATION</h4>
-				<h2>Work smarter</h2>
+				<h1>Work smarter</h1>
 				<p>
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 					Consectetur officiis nulla delectus rem error ipsam
@@ -21,7 +21,7 @@ function Feautures() {
 					<i class="fa-solid fa-shield-halved"></i>
 				</div>
 				<h4 className="lil-bold">SECURE & TRUSTWORTHY</h4>
-				<h2>Sleep easy we got this!</h2>
+				<h1>Sleep easy we got this!</h1>
 				<p>
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 					Consectetur officiis nulla delectus rem error ipsam
